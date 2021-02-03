@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Coffee Break</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trending Coffee Shop in the Philippines, Open 24/7">
+  <meta name="keywords" content="coffee, shop,  coffeeshop, espresso, latte">
+  <meta name="author" content="Pedro Gequillana">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!--Header Starts Here-->
+<header>
+<nav class="navbar navbar-expand-md bg-light navbar-light">
+  <!-- Brand -->
+  <img src="./IMAGES/website-logo.png" class="img-fluid" alt="Coffee Break Website Logo">
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <!--ms-auto to align links to the right-->
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Branches</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
+
+<!--Main Content starts here-->
+<main>
+<!--BANNER starts here-->
+<section id="section-banner" class="custom-padding">
+  <div class="container">
+    <div class="section-content">
+      <div class="Bhead">
+      <h1 class="Coffee">Coffee </h1>
+      <h1 class="Break">Break</h1>
+      <h1 class="Time">Time</h1><br>
+      </div>
+      <div class="Bcontent">
+      <h5 class="NB">There is always </h5>
+      <h5 class="BR">time for</h5>
+      <h5 class="NB">a cup of</h5>
+      <h5 class="BR">coffee.</h5>
+      </div>
+    </div>
+  </div>
+</section>
+<!--BANNER ends here-->
+<!--SHOP LOCATIONS starts here-->
+<section id="shp-lcn" class="custom-padding">
+  <div class="container">
+    <div class="section-heading text-center"><!--Added "text-center" to position icon and heading-->
+      <img class="img-fluid" src="./IMAGES/shplcn-section-icon.png" alt="Shop Location Section Icon">
+      <h2>SHOP LOCATIONS</h2>
+      <h5>Start and end your day with a cup of coffee.<br>Check out our shop locations near you.</h5>
+    </div>
+    <div class="section-content">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6"><!--Default is 12 100% columns, will only display 50% for small and medium devices-->
+          <div class="content-text text-sm-right">
+            <h3>Makati</h3>
+            <p>The city where we first set our flag for coffee lovers. It is a 1st class highly urbanized city in Metro Manila, known for skyscrapers, shopping malls of Makati CBD and Ayala Triangle Gardens.</p>
+            <a class="float-sm-right" href="#">Locate Shops</a> <!--Float section content to the right if viewed on small devices or wider-->
+          </div>
+        </div>
+        <div class="d-none d-sm-block col-sm-6 col-md-6"><!--Display none, block display if viewed on extra small devices, viewed 50% for small and medium sized devices(6 columns)(THIS IS FOR FASTER MOBILE-FRIENDLY DEVELOPMENT)-->
+          <div class="content-image">
+            <img class="img-fluid" src="./IMAGES/shop-makati.png" alt="Makati City">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="d-none d-sm-block col-sm-6 col-md-6">
+          <div class="content-image">
+            <img class="img-fluid" src="./IMAGES/shop-bgc.png" alt="Bonifacio Global City">
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6">
+          <div class="content-text text-sm-left">
+            <h3>Bonifacio Global City</h3>
+            <p>Known as a world-class business and residential center, with luxury shopping centers, dining spots, condominiums, corporate offices and recreational options. We managed to satisfy busy coffee lovers.</p>
+            <a class="float-sm-left" href="#">Locate Shops</a><!--Float section content to the left if viewed on small devices or wider-->
+          </div>
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6">
+          <div class="content-text text-sm-right">
+            <h3>Baguio City</h3>
+            <p>Having a cup of hot coffee on the Summer Capital of the Philippines while the aroma of coffee and pinetrees reside through your nose is bliss.</p>
+            <a class="float-sm-right" href="#">Locate Shops</a>
+          </div>
+        </div>
+        <div class="d-none d-sm-block col-sm-6 col-md-6">
+          <div class="content-image">
+            <img class="img-fluid" src="./IMAGES/shop-baguio.png" alt="Baguio City">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--SHOP Locations ends here-->
+<!--SPECIFIC Shop locations starts here-->
+<section id="sshp-lcn" class="custom-padding">
+  <div class="container">
+    <div class="section-heading text-center">
+      <img class="img-fluid" src="./IMAGES/speshplcn-section-icon.png" alt="Specific Shop Location Section Icon">
+      <h2>SHOP LOCATIONS - MAKATI</h2>
+      <h5>Need a cup of coffee before and after work?<br>Here are some of our branches located in Makati City.</h5>
+    </div>
+    <div class="section-content">
+      <div class="row justify-content-center"><!--This is to align contents (center)-->
+        <div class="col-8 col-sm-4">
+          <div class="content-text">
+            <img class="img-fluid" src="./IMAGES/shop-legazpi.png" alt="Coffee Break at Legazpi">
+            <h4>Coffee Break - Legazpi Village</h4>
+            <p>104 Legazpi Street, Legazpi Village, Makati, Kalakhang Maynila</p>
+          </div>
+        </div>
+        <div class="col-8 col-sm-4">
+          <div class="content-text">
+            <img class="img-fluid" src="./IMAGES/shop-greenbelt.png" alt="Coffee Break at Greenbelt">
+            <h4>Coffee Break - Greenbelt 1</h4>
+            <p>Greenbelt 1-Level 1, Greenbelt Mall, Makati City</p>
+          </div>
+        </div>
+        <div class="col-8 col-sm-4">
+          <div class="content-text">
+            <img class="img-fluid" src="./IMAGES/shop-legazpi.png" alt="Coffee Break at Yupangco">
+            <h4>Coffee Break - Yupangco Bldg.</h4>
+            <p>Ground Floor, GS Yupangco Building, Nicanor Garcia, Makati, Metro Manila</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about" class="custom-padding">
+  <div class="container">
+    <div class="section-heading text-center">
+      <img src="./IMAGES/about-section-icon.png">
+      <h2>ABOUT US</h2>
+      <h5>Coffee Break is not just a shop, we will make you feel like you are at home.</h5>
+    </div>
+    <div class="section-content">
+      <div class="row justify-content-between no-gutters">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
+          <div class="content text">
+            <p>We are passionate with what we make and deliver to ensure that the aroma and taste of our coffee will relive your stress.</p>
+            <p>Our mission is simple, we want to deliver the best coffee and customer service experience.</p>
+            <p>Our vision is to boost the coffee shop industry into a different level, you can enjoy your cofee while you can feel at home. Giving the best space, resources and comfortability.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <div class="content-image">
+            <img class="img-fluid" src="./IMAGES/about.png" alt="About us">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section id="products">
+  <div class="container-fluid wrap">
+    <div class="section-heading text-center">
+      <img class="img-fluid" src="./IMAGES/products-section-icon.png" alt="Products Section Icon">
+      <h2>SOME OF OUR BEST SELLERS</h2>
+    </div>
+    <div class="section-content">
+      <div class="row no-gutters">
+        <div class="col-6 col-sm-3 col-md-3">
+          <img class="img-fluid" src="./IMAGES/espresso.png" alt="Espresso">
+        </div>
+        <div class="col-6 col-sm-3 col-md-3">
+          <img class="img-fluid" src="./IMAGES/blackcoffee.png" alt="Black Coffee">
+        </div>
+        <div class="col-6 col-sm-3 col-md-3">
+          <img class="img-fluid" src="./IMAGES/tea.png">
+        </div>
+        <div class="col-6 col-sm-3 col-md-3">
+          <img class="img-fluid" src="./IMAGES/americano.png" alt="Americano">
+        </div>
+        <div class="col-6 col-sm-3 col-md-3">
+          <img class="img-fluid" src="./IMAGES/icedcoffee.png">
+        </div>
+        <div class="col-6 col-sm-3 col-md-3">
+          <img class="img-fluid" src="./IMAGES/dessert.png" alt="Dessert">
+        </div>
+        <div class="col-6 col-sm-3 col-md-3">
+          <img class="img-fluid" src="./IMAGES/pancakes.png" alt="Pancakes">
+        </div>
+        <div class="col-6 col-sm-3 col-md-3">
+          <img class="img-fluid" src="./IMAGES/white-coffee.png" alt="White Coffee">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--START OF SPECIFIC PRODUCTS-->
+<section id="specprod" class="custom-padding">
+  <div class="container">
+    <div class="section-heading text-center">
+      <img class="img-fluid" src="./IMAGES/ssproducts-section-icon.png">
+      <h2>PRODUCTS</h2>
+      <h5>Looking for something to eat or drink?</h5>
+    </div>
+    <div class="section-content">
+      <div class="row no-gutters">
+        <div class="col-12 col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-12 col-sm-5 col-md-12 col-lg-4">
+              <div class="content-image text-center text-sm-left">
+                <img class="img-fluid" src="./IMAGES/model-espresso.png" alt="Espresso">
+              </div>
+            </div>
+            <div class="col-12 col-sm-7 col-md-12 col-lg-8">
+              <div class="content-text text-center text-sm-left">
+                <h4>Espresso</h4>
+                <p>An espresso shot can be served solo or used as the foundation of most coffee drinks, like lattes and macchiatos.</p>
+                <a href="#">Browse Espresso Coffees</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-12 col-sm-5 col-md-12 col-lg-4">
+              <div class="content-image text-center text-sm-left">
+                <img class="img-fluid" src="./IMAGES/model-black.png" alt="Black Coffee">
+              </div>
+            </div>
+            <div class="col-12 col-sm-7 col-md-12 col-lg-8">
+              <div class="content-text text-center text-sm-left">
+                <h4>Black Coffee</h4>
+                <p>Black coffee is as simple as it gets with ground coffee beans steeped in hot water served warm.</p>
+                <a href="#">Browse Coffees</a>
+              </div>
+            </div>
+          </div>
+        </div>
+                <div class="col-12 col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-12 col-sm-5 col-md-12 col-lg-4">
+              <div class="content-image text-center text-sm-left">
+                <img class="img-fluid" src="./IMAGES/model-desserts.png" alt="Cakes">
+              </div>
+            </div>
+            <div class="col-12 col-sm-7 col-md-12 col-lg-8">
+              <div class="content-text text-center text-sm-left">
+                <h4>Cakes</h4>
+                <p>Cakes are broadly divided into several categories, you can choose your favorite cake to go alongside with your coffee.</p>
+                <a href="#">Browse Desserts</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-12 col-sm-5 col-md-12 col-lg-4">
+              <div class="content-image text-center text-sm-left">
+                <img class="img-fluid" src="./IMAGES/model-sandwich.png" alt="Sandwiches">
+              </div>
+            </div>
+            <div class="col-12 col-sm-7 col-md-12 col-lg-8">
+              <div class="content-text text-center text-sm-left">
+                <h4>Sandwiches</h4>
+                <p>Not a fan of desserts? We got you covered. With our wide variety of savoury sandwiches that will surely satisfy you.</p>
+                <a href="#">Browse Sandwiches</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact">
+  <div class="container">
+    <div class="row no-gutters">
+      <div class="col-12 col-sm-6 col-md-6 section-left">
+        <div class="section-box">
+          <h3>Have suggestions or concerns?</h3>
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label>First Name</label><br>
+                <input type="text" name="fname">
+              </div>
+              <div class="form-group col-md-6">
+                <label>Last Name</label><br>
+                <input type="text" name="lname">
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Email Address</label><br>
+              <input type="email" name="email">
+            </div>
+            <div class="form-group">
+              <label>Message</label><br>
+              <textarea rows="6"></textarea>
+            </div>
+            <input type="submit" name="submit" value="Send Message">
+          </form>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 section-right">
+        <div class="section-box">
+          <div class="section-heading text-center">
+            <img class="img-fluid" src="./IMAGES/contact-section-icon.png" alt="Contact Us">
+            <h2>CONTACT US</h2>
+          </div>
+          <div class="section-content">
+            <div class="section-details">
+              <h6>Address:</h6>
+              <p>Makati City, NCR<br>Philippines</p>
+            </div>
+            <div class="section-details">
+              <h6>Contact Number:</h6>
+              <p><a href="tel:+(63) 123-455-3698"> +(63) 123-455-3698</a></p>
+            </div>
+            <div class="section-details">
+              <h6>Email Address:</h6>
+              <p><a href="mailto: customers@coffeebreak.com">customers@coffeebreak.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<!--START OF FOOTER-->
+<footer>
+  <section id="footer-about">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-12 col-sm-6 col-md-6">
+          <div class="section-content">
+            <h6>We hope you enjoyed our service.</h6>
+            <p>Subscribe and follow us on our social media accounts to be updated for the latest promos and events.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3 col-md-3">
+          <div class="section-content">
+            <h6>Related Links</h6>
+            <ul>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Branches</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3 col-md-3">
+          <div class="section-content social-icons">
+            <h6>Social Media Links</h6>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="https://facebook.com" class="fb" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="https://twitter.com" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://instagram.com" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://linkedin.com" class="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="footer-copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-5 col-md-6">
+          <div class="section-content text-center text-sm-left">
+            <p><i class="far fa-copyright">CoffeeBreak. All rights reserved.</i>
+          </div>
+        </div>
+        <div class="col-12 col-sm-7 col-md-6">
+          <div class="section-content">
+            <ul class="list-inline text-center text-sm-right">
+              <li class="list-inline-item"><a href="#">Terms and Conditions</a></li>
+              <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
+<!--Used scripts-->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
