@@ -768,7 +768,7 @@ footer #footer-copyright a:hover {
   }
 }
 
-/*Medium Devices (used landscape iPad as reference 1024x768)*/
+/*Large Devices (used landscape iPad as reference 1024x768)*/
 @media (min-width: 992px) {
   .navbar-nav.ms-auto {
     padding-right: 40px;
