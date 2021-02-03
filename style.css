@@ -1,0 +1,576 @@
+/*-------------------------------------------------General---------------------------------------------------*/
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+.wrapper {
+  width: 1175px;
+  margin: 0 auto;
+}
+.wrap {
+  margin: 0 auto;
+  max-width: 1560px;
+}
+.custom-row {
+  display: inline-block;
+  width: 100%;
+}
+/*-------------------------------------------------Header----------------------------------------------------*/
+header {
+  background-color: white;
+  height: 73px;
+  padding: 7px;
+}
+header .custom-column {
+  width: 50%;
+  float: left;
+}
+.site-menu ul {
+  margin: 0;
+  padding: 25px 12px;
+  text-align: right;
+}
+.site-menu li {
+  display: inline-block;
+}
+.site-menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 600;
+  padding: 5px 20px;
+}
+.site-menu a:hover {
+  color: #603913;
+}
+/*-------------------------------------------------Banner----------------------------------------------------*/
+.section-banner {
+  background-image: url(http://localhost/fewd/LESSON%203%20-%20PORTFOLIO/PORTFOLIO/coffee%20break%20portfolio/images/banner-image.png);
+  height: 720px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 50px;
+  position: relative;
+}
+.coffeebanner {
+  color: black;
+  font-family: "Franklin Gothic Heavy";
+  font-size: 55px;
+  font-style: italic;
+  font-weight: lighter;
+  text-transform: uppercase;
+  padding: 183px 554px 0px 364px;
+  position: absolute;
+}
+.breakbanner {
+  color: #603913;
+  font-family: "Franklin Gothic Heavy";
+  font-size: 55px;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 183px 0 0 668px;
+  position: absolute;
+}
+.timebanner {
+  color: white;
+  font-family: "Franklin Gothic Heavy";
+  font-size: 55px;
+  font-style: italic;
+  font-weight: lighter;
+  text-transform: uppercase;
+  position: absolute;
+  padding: 183px 0px 0px 943px;
+}
+.bannercontent {
+  font-family: "Franklin Gothic Heavy";
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.TIAcontent {
+  position: absolute;
+  padding: 319px 0 0 636px;
+}
+.TFcontent {
+  position: absolute;
+  padding: 319px 0 0 822px;
+  color: #603913;
+}
+.ACOcontent {
+  position: absolute;
+  padding: 319px 0 0 925px;
+}
+.Ccontent {
+  position: absolute;
+  padding: 319px 0 0 1025px;
+  color: #603913;
+}
+/*------------------------------------------Shop Locations---------------------------------------------------*/
+.section-shop-locations {
+  background-color: white;
+}
+.section-shop-locations {
+  padding: 75px 0;
+}
+.section-shop-locations .section-heading {
+  text-align: center;
+}
+.section-shop-locations .section-heading h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 25px 0 5px;
+}
+.section-shop-locations .section-heading h5 {
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0px 0 15px;
+  padding-bottom: 60px;
+  line-height: 1.5;
+}
+.section-shop-locations .section-content .custom-column {
+  width: 50%;
+  float: left;
+}
+.section-shop-locations .section-content {
+  clear: both; /*To clear any spaces bought by float property*/
+}
+.section-shop-locations .custom-column {
+  position: relative;
+}
+.section-shop-locations h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0 0 0 0;
+}
+.section-shop-locations p {
+  color: black;
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 19px;
+  line-height: 0.7cm;
+}
+.section-shop-locations a {
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: #a0662e;
+  text-align: center;
+  padding: 12px;
+  border-radius: 28px;
+  display: block;
+  width: 110px;
+  float: right;
+}
+.section-shop-locations a:hover {
+  background-color: grey;
+  color: black;
+}
+.section-shop-locations .section-content:nth-child(2) a {
+  float: left;
+}
+.section-shop-locations .section-text {
+  text-align: right;
+  padding: 75px 118px 50px 50px;
+}
+.section-shop-locations .section-content:nth-child(2) .section-text {
+  text-align: left;
+  padding: 80px 40px 0px 105px;
+}
+.section-shop-locations .section-content:nth-child(2) .section-image {
+  padding: 0px 20px 0px 20px;
+}
+/*------------------------------------------Branches---------------------------------------------------------*/
+.section-specific-shop-locations {
+  background-color: #d3d2a3;
+}
+.section-specific-shop-locations {
+  padding: 75px 0;
+}
+.section-specific-shop-locations .section-heading {
+  text-align: center;
+}
+.section-specific-shop-locations .section-heading h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 25px 0 5px;
+}
+.section-specific-shop-locations .section-heading h5 {
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0px 0 15px;
+  padding-bottom: 60px;
+  line-height: 1.5;
+}
+.section-specific-shop-locations .section-section .custom-column {
+  width: 33.33%;
+  float: left;
+}
+.section-specific-shop-locations
+  .section-section
+  .custom-column:first-child
+  .section-content {
+  padding-right: 20px;
+}
+.section-specific-shop-locations
+  .section-section
+  .custom-column:nth-child(2)
+  .section-content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.section-specific-shop-locations
+  .section-section
+  .custom-column:nth-child(3)
+  .section-content {
+  padding-left: 20px;
+}
+.section-specific-shop-locations
+  .section-section
+  .custom-column
+  .section-content
+  img {
+  width: 100%;
+}
+.section-specific-shop-locations
+  .section-section
+  .custom-column
+  .section-content
+  h4 {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0 10px;
+  margin: 26px 10px;
+}
+.section-specific-shop-locations
+  .section-section
+  .custom-column
+  .section-content
+  p {
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0 10px;
+  margin: 20px 12px 0px;
+}
+/*------------------------------------------About------------------------------------------------------------*/
+.section-about {
+  background-color: white;
+}
+.section-about {
+  padding: 75px 0;
+}
+.section-about .section-heading {
+  text-align: center;
+}
+.section-about .section-heading h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 25px 0 5px;
+}
+.section-about .section-heading h5 {
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0px 0 15px;
+  padding-bottom: 60px;
+  line-height: 1.5;
+}
+.section-about .section-section .custom-column {
+  width: 50%;
+  float: left;
+}
+.section-about .section-section .custom-column p {
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  line-height: 0.7cm;
+  padding: 32px 31px 31px 31px;
+  margin: 0 60px 0 0px;
+}
+/*------------------------------------------Products-Page----------------------------------------------------*/
+.section-products {
+  background-color: #d3d2a3;
+}
+.section-products .section-heading {
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+  padding-top: 75px;
+  margin: 25px 0 5px;
+  text-align: center;
+}
+.section-products .section-heading h2 {
+  font-weight: bold;
+  font-size: 32px;
+  margin: 30px 0 30px;
+}
+.section-products .section-section .custom-column {
+  width: 24.5%;
+  float: left;
+}
+.section-products .section-image {
+  max-height: 260px;
+}
+/*------------------------------Products with details--------------------------------------------------------*/
+.section-specific-products {
+  background-color: white;
+}
+.section-specific-products {
+  padding: 75px 0;
+}
+.section-specific-products .section-heading {
+  text-align: center;
+}
+.section-specific-products .section-heading h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 25px 0 15px;
+}
+.section-specific-products .section-heading h5 {
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0px 0 15px;
+  padding-bottom: 40px;
+  line-height: 1.5;
+}
+.section-specific-products .section-section .custom-column {
+  width: 50%;
+  float: left;
+  margin: 0 0 40px;
+}
+.section-specific-products .section-content .custom-column:first-child {
+  width: 38%;
+  float: left;
+}
+.section-specific-products .section-content .custom-column:nth-child(2) {
+  width: 50%;
+  float: left;
+}
+.section-specific-products .content-image {
+  padding-right: 20px;
+}
+.section-specific-products .content-image img {
+  width: 100%;
+}
+.section-specific-products h3 {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  line-height: 1em;
+}
+.section-specific-products .content-text {
+  padding-right: 25px;
+}
+.section-specific-products p {
+  color: black;
+  font-size: 16px;
+  margin: 0 0 30px;
+  line-height: 1.5em;
+}
+.section-specific-products a {
+  font-weight: bold;
+  color: #a0662e;
+  text-decoration: none;
+}
+.section-specific-products a:hover {
+  color: black;
+}
+/*------------------------------------------Contact us-------------------------------------------------------*/
+.section-contact {
+  background-color: white;
+}
+.section-contact .custom-column {
+  width: 50%;
+  float: left;
+}
+.section-contact .section-left {
+  background-color: #a0662e;
+  min-height: 600px;
+}
+.section-contact .section-right {
+  background-color: #d3d2a3;
+  min-height: 600px;
+}
+.section-contact .section-left .section-content {
+  padding: 101px 50px;
+}
+.section-contact .section-left h3 {
+  font-size: 24px;
+  color: white;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.section-contact .section-left form label {
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+.section-contact .section-left br {
+  margin-bottom: 10px;
+}
+.section-contact .section-left form div {
+  margin-bottom: 20px;
+}
+.section-contact .section-left .form-name input,
+.section-contact .section-left .form-email input,
+.section-contact .section-left .form-message textarea {
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  background-color: white;
+  border: 0;
+  padding: 12px 3%;
+  width: 96%;
+}
+.section-contact .section-left .form-name div {
+  width: 49%;
+  float: left;
+}
+.section-contact .section-left .form-name div:first-child {
+  padding-right: 1%;
+}
+.section-contact .section-left .form-name div:nth-child(2) {
+  padding-left: 1%;
+}
+.section-contact .section-left .form-button input {
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  background-color: white;
+  border: 0;
+  padding: 12px 25px;
+  font-family: "Open Sans";
+  border-radius: 25px;
+}
+.section-contact .section-left .form-button input:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.section-contact .section-right {
+  padding: 0 0 138px 587px;
+}
+.section-contact .section-right .section-heading {
+  text-align: center;
+  padding: 150px 0 0 0;
+}
+.section-contact .section-right .section-heading h2 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 25px 0 5px;
+  padding: 0 0 50px 0;
+}
+.section-contact .section-right .section-content {
+  padding-left: 150px;
+}
+.section-contact .section-content h6 {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+.section-contact .section-content p,
+.section-contact .section-content a {
+  color: black;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 0 0 20px;
+  text-decoration: none;
+}
+/*-----------------------------------------Footer------------------------------------------------------------*/
+footer {
+  background-color: #a0662e;
+}
+footer a:hover {
+  color: #ffde00;
+}
+.footer-about {
+  padding: 120px 0 150px;
+}
+.footer-about .custom-column:first-child {
+  width: 50%;
+  float: left;
+}
+.footer-about .custom-column:nth-child(2),
+.footer-about .custom-column:nth-child(3) {
+  width: 25%;
+  float: left;
+}
+.footer-about h6 {
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 0 15px;
+}
+.footer-about p {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+.footer-about ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-about ul a {
+  color: white;
+  text-decoration: none;
+  line-height: 2.5em;
+}
+.footer-about ul a:hover {
+  color: black;
+}
+.footer-about .custom-column:nth-child(3) li {
+  display: inline-block;
+  padding-right: 15px;
+}
+.footer-copyright {
+  background: #1c1c1c;
+  padding: 20px 100px 15px;
+}
+.footer-copyright .custom-column {
+  width: 50%;
+  float: left;
+}
+.footer-copyright p {
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+}
+.footer-copyright ul {
+  text-align: right;
+}
+.footer-copyright li {
+  display: inline-block;
+}
+.footer-copyright a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: normal;
+  padding-left: 25px;
+}
+.footer-about .custom-column:nth-child(3) a:hover {
+  color: black;
+}
